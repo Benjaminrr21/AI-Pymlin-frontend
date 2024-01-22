@@ -1,0 +1,67 @@
+
+#game-container {
+    padding-left: 250px;
+    padding-right: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#game-container h3 {
+    font-size: larger;
+    text-align: center;
+}
+svg {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(97, 83, 5, 0.363);
+    border: 2px solid black;
+}
+
+.board-line {
+    stroke: black;
+    stroke-width: 0.5;
+}
+
+.board-circle:hover {
+    fill: rgb(0, 113, 117);
+    cursor: pointer;
+}
+#setup {
+    min-width: 30rem;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+  
+}
+
+#setup-inner {
+    text-align: center;
+    margin-left: 375PX;
+    background-color: silver;
+    padding:40px;
+    box-shadow: 0 0 20px 20px;
+
+}
+#setup-inner h1 {
+    font-size: 100px;
+
+}
+#setup-inner p {
+    margin: 8px;
+}
+#setup-inner button {
+ background-color: rgba(97, 83, 5, 0.363);   
+ margin: 20px;
+
+}
+#setup-inner button:hover {
+    background-color: white;
+    transform: scale(1.01)
+} 
+#start {
+    width: 100%;
+}
+#start:hover {
+    background-color: white;
+}
